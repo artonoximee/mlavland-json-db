@@ -37,6 +37,8 @@ function appendData(data, language) {
   document.getElementById('logo').innerHTML = data.logo;
   switchTitles(language);
   appendDescription(data.description);
+  appendAllies(data.allies);
+  appendContact(data.contact);
   appendProjects(data.projects);
   appendTeachings(data.teachings);
   appendExhibitions(data.exhibitions);
@@ -76,6 +78,26 @@ function appendDescription(description) {
   let descriptionContent = document.createElement('p');
   descriptionContent.innerHTML = description;
   descriptionContainer.appendChild(descriptionContent);
+}
+
+// Append allies
+
+function appendAllies(allies) {
+  const alliesContainer = document.getElementById('allies');
+  alliesContainer.innerHTML = '';
+  let alliesContent = document.createElement('p');
+  alliesContent.innerHTML = allies;
+  alliesContainer.appendChild(alliesContent);
+}
+
+// Append contact
+
+function appendContact(contact) {
+  const contactContainer = document.getElementById('contact');
+  contactContainer.innerHTML = '';
+  let contactContent = document.createElement('p');
+  contactContent.innerHTML = contact;
+  contactContainer.appendChild(contactContent);
 }
 
 // Append projects data
