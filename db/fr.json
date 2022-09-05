@@ -8,19 +8,116 @@
       "title":"Déprojet",
       "date":"2022-?",
       "type":"recherche en cours",
-      "hovertext":"processus de recherche"
+      "hovertext":"processus de recherche",
+      "url":"https://www.instagram.com/deprojeter/"
     },
     {
       "title":"PréHistoires, Accéder aux objets ouverts",
       "date":"2020-?",
       "type":"recherche en cours",
-      "hovertext":""
+      "hovertext":"",
+      "url":"#"
     },
     {
       "title":"Image du monde flottant",
       "date":"2021",
       "type":"illustration",
-      "hovertext":""
+      "hovertext":"",
+      "url":"#"
+    },
+    {
+      "title":"La Mesure et le Tas",
+      "date":"2019",
+      "type":"installation",
+      "hovertext":"",
+      "url":"https://vimeo.com/378367469"
+    },
+    {
+      "title":"Random Architecture Program",
+      "date":"2019",
+      "type":"application web",
+      "hovertext":"",
+      "url":"http://generator.mlav.land/"
+    },
+    {
+      "title":"Future of Past",
+      "date":"2019",
+      "type":"concours d'idées",
+      "hovertext":"",
+      "url":"https://concours.bam.archi/cdne"
+    },
+    {
+      "title":"Iliad/Free digital ecosystem in Paris, places and architectures",
+      "date":"2019",
+      "type":"série de dessins pour Soline Nivet",
+      "hovertext":"",
+      "url":"http://www.soline-nivet.fr/fr/host-mesh-educate-incubate-employ-iliadfree-digital-ecosystem-in-paris-places-and-architectures/"
+    },
+    {
+      "title":"Annuaire Matière",
+      "date":"2019",
+      "type":"application web",
+      "hovertext":"",
+      "url":"https://matiere-directory.herokuapp.com/"
+    },
+    {
+      "title":"Marketplace Matière",
+      "date":"2019",
+      "type":"application web prototype",
+      "hovertext":"",
+      "url":"https://matiere-stage.herokuapp.com/"
+    },
+    {
+      "title":"Le Micro-Laboratoire Ambulant",
+      "date":"2019",
+      "type":"projet de micro-architecture",
+      "hovertext":"",
+      "url":"#"
+    },
+    {
+      "title":"Archives d'Extraits Terrestres",
+      "date":"2018-?",
+      "type":"projet d'archivage en cours",
+      "hovertext":"",
+      "url":"#"
+    },
+    {
+      "title":"Pppanorammmas",
+      "date":"2018",
+      "type":"série de photographies",
+      "hovertext":"",
+      "url":"#"
+    },
+    {
+      "title":"Ce Que Ça Peut Être",
+      "date":"2018",
+      "type":"installation",
+      "hovertext":"",
+      "url":"#"
+    },
+    {
+      "title":"Auto-Post-Trans-Multi-Méta-Néo-Anti-Sub-Ob",
+      "date":"2018",
+      "type":"court-métrage (12 minutes, color)",
+      "hovertext":"",
+      "url":"#"
+    },
+    {
+      "title":"Le Plongeon",
+      "date":"2017",
+      "type":"court-métrage (15 minutes, b&w)",
+      "hovertext":"",
+      "url":"#"
+    }
+  ],
+
+  "teachings":[
+    {
+      "title":"Supervision des mémoires de diplômes",
+      "department":"R10 - département PASS",
+      "project":"L'architecture et l'urgence climatique",
+      "school":"ENSA Paris Malaquais",
+      "date":"printemps 2022"
     }
   ],
 
