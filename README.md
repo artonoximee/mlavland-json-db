@@ -1,8 +1,8 @@
-# MLAV.LAND Website - JSON DB Version
+# MLAV.LAND Website - .json-based version
 
 ## Introduction
 
-This repository is a JSON-based version of the [mlav.land](https://mlav.land/) website. The website uses .json files to store simple information, and javascript to display it in two languages. This is an experiment to understand web-oriented javascript.
+This repository is a JSON-based version of the [mlav.land](https://mlav.land/) website. The website uses .json files to store simple information and act as a database, and javascript to display it in both french and english. This is an experiment to understand web-oriented javascript.
 
 ## Limits
 
