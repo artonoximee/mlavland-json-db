@@ -43,6 +43,7 @@ function appendData(data, language) {
   appendTeachings(data.teachings);
   appendExhibitions(data.exhibitions);
   appendPublications(data.publications);
+  appendDistinctions(data.distinctions);
 }
 
 // Switch language from titles
@@ -55,6 +56,7 @@ function switchTitles(language) {
   let teachingsTitle = document.getElementById('teachingsTitle');
   let exhibitionsTitle = document.getElementById('exhibitionsTitle');
   let publicationsTitle = document.getElementById('publicationsTitle');
+  let distinctionsTitle = document.getElementById('distinctionsTitle');
   if (language == 'fr') {
     descriptionTitle.innerHTML = '&nbsp;';
     alliesTitle.innerHTML = 'Allié·es';
@@ -63,6 +65,7 @@ function switchTitles(language) {
     teachingsTitle.innerHTML = 'Enseignement';
     exhibitionsTitle.innerHTML = 'Expositions';
     publicationsTitle.innerHTML = 'Publications';
+    distinctionsTitle.innerHTML = 'Distinctions';
   } else {
     descriptionTitle.innerHTML = '&nbsp;';
     alliesTitle.innerHTML = 'Allies';
@@ -71,6 +74,7 @@ function switchTitles(language) {
     teachingsTitle.innerHTML = 'Teaching';
     exhibitionsTitle.innerHTML = 'Exhibitions';
     publicationsTitle.innerHTML = 'Publications';
+    distinctionsTitle.innerHTML = 'Distinctions';
   }
 }
 
@@ -129,6 +133,18 @@ function appendPublications(publications) {
     let publication = document.createElement('p');
     publication.innerHTML = `<a href='${publications[i].url}' target='_blank'>${publications[i].title}</a><br>${publications[i].description}`;
     publicationsContainer.appendChild(publication);
+  }
+}
+
+// Append distinctions data
+
+function appendDistinctions(distinctions) {
+  const distinctionsContainer = document.getElementById('distinctions');
+  distinctionsContainer.innerHTML = '';
+  for (let i = 0; i < distinctions.length; i++) {
+    let distinction = document.createElement('p');
+    distinction.innerHTML = `${distinctions[i].title}<br>${distinctions[i].date}`;
+    distinctionsContainer.appendChild(distinction);
   }
 }
 
