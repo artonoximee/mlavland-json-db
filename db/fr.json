@@ -142,6 +142,41 @@
       "project":"La Mesure et le Tas",
       "type":"installation",
       "date":"2019"
+    },
+    {
+      "venue":"Cité de l'Architecture",
+      "city":"Paris",
+      "project":"Mini Maousse 7",
+      "type":"concours",
+      "date":"2019"
+    },
+    {
+      "venue":"Maison de l'Architecture en Île de France",
+      "city":"Paris",
+      "project":"Ce Que Ça Peut Être",
+      "type":"installation",
+      "date":"2018"
+    },
+    {
+      "venue":"ENSA Paris Malaquais",
+      "city":"Paris",
+      "project":"Ce Que Ça Peut Être",
+      "type":"installation",
+      "date":"2018"
+    },
+    {
+      "venue":"École des Beaux-Arts",
+      "city":"Paris",
+      "project":"Ce Que Ça Peut Être",
+      "type":"installation",
+      "date":"2018"
+    },
+    {
+      "venue":"École des Beaux-Arts",
+      "city":"Paris",
+      "project":"Le Plongeon",
+      "type":"projection",
+      "date":"2017"
     }
   ]
 }
