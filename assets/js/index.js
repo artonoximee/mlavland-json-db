@@ -38,6 +38,7 @@ function appendData(data, language) {
   switchTitles(language);
   appendDescription(data.description);
   appendProjects(data.projects);
+  appendTeachings(data.teachings);
   appendExhibitions(data.exhibitions);
 }
 
@@ -46,14 +47,17 @@ function appendData(data, language) {
 function switchTitles(language) {
   let descriptionTitle = document.getElementById('descriptionTitle');
   let projectsTitle = document.getElementById('projectsTitle');
+  let teachingsTitle = document.getElementById('teachingsTitle');
   let exhibitionsTitle = document.getElementById('exhibitionsTitle');
   if (language =='fr') {
     descriptionTitle.innerHTML = '&nbsp;';
     projectsTitle.innerHTML = 'Projets';
+    teachingsTitle.innerHTML = 'Enseignement';
     exhibitionsTitle.innerHTML = 'Expositions';
   } else {
     descriptionTitle.innerHTML = '&nbsp;';
     projectsTitle.innerHTML = 'Projects';
+    teachingsTitle.innerHTML = 'Teaching';
     exhibitionsTitle.innerHTML = 'Exhibitions';
   }
 }
@@ -77,6 +81,18 @@ function appendProjects(projects) {
     let project = document.createElement('p');
     project.innerHTML = `<b>${projects[i].title}</b> <br> ${projects[i].date}, ${projects[i].type}`;
     projectsContainer.appendChild(project);
+  }
+}
+
+// Append teachings data
+
+function appendTeachings(teachings) {
+  const teachingsContainer = document.getElementById('teachings');
+  teachingsContainer.innerHTML = '';
+  for (let i = 0; i < teachings.length; i++) {
+    let teaching = document.createElement('p');
+    teaching.innerHTML = `${teachings[i].title} [${teachings[i].department}]<br><i>${teachings[i].project}</i><br>${teachings[i].school} (${teachings[i].date})`;
+    teachingsContainer.appendChild(teaching);
   }
 }
 
