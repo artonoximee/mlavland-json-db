@@ -36,9 +36,9 @@ function appendData(data, language) {
   document.title = data.title;
   document.getElementById('logo').innerHTML = data.logo;
   switchTitles(language);
-  appendDescription(data.description);
-  appendAllies(data.allies);
-  appendContact(data.contact);
+  appendContent(data.description, 'description');
+  appendContent(data.allies, 'allies');
+  appendContent(data.contact, 'contact');
   appendProjects(data.projects);
   appendTeachings(data.teachings);
   appendExhibitions(data.exhibitions);
@@ -70,34 +70,14 @@ function switchTitles(language) {
   }
 }
 
-// Append description
+// Append function
 
-function appendDescription(description) {
-  const descriptionContainer = document.getElementById('description');
-  descriptionContainer.innerHTML = '';
-  let descriptionContent = document.createElement('p');
-  descriptionContent.innerHTML = description;
-  descriptionContainer.appendChild(descriptionContent);
-}
-
-// Append allies
-
-function appendAllies(allies) {
-  const alliesContainer = document.getElementById('allies');
-  alliesContainer.innerHTML = '';
-  let alliesContent = document.createElement('p');
-  alliesContent.innerHTML = allies;
-  alliesContainer.appendChild(alliesContent);
-}
-
-// Append contact
-
-function appendContact(contact) {
-  const contactContainer = document.getElementById('contact');
-  contactContainer.innerHTML = '';
-  let contactContent = document.createElement('p');
-  contactContent.innerHTML = contact;
-  contactContainer.appendChild(contactContent);
+function appendContent(content, containerId) {
+  const container = document.getElementById(containerId);
+  container.innerHTML = '';
+  let newContent = document.createElement('p');
+  newContent.innerHTML = content;
+  container.appendChild(newContent);
 }
 
 // Append projects data
