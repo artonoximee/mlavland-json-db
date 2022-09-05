@@ -1,3 +1,8 @@
+document.getElementById('btn').onclick = function() {
+  let currentLanguage = document.getElementById('btn').value;
+  console.log(currentLanguage);
+};
+
 fetch('../../db/fr.json')
     .then(function (response) {
         return response.json();
