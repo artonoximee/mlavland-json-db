@@ -13,11 +13,5 @@ fetch('../../db/fr.json')
 function appendData(data) {
   console.log(data);
   document.getElementById('title').innerText = data.title;
-  /*  
-  var mainContainer = document.getElementById("myData");
-    for (var i = 0; i < data.length; i++) {
-        var div = document.createElement("div");
-        div.innerHTML = 'Name: ' + data[i].firstName + ' ' + data[i].lastName;
-        mainContainer.appendChild(div);
-    }*/
+  document.getElementById('description').innerText = data.description;
 }
