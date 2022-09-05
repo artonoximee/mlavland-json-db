@@ -17,6 +17,7 @@ button, button:focus{
   background: transparent;
   border: 1px solid transparent;
   color: #fff;
+  font-size: .9em !important;
 }
 
 button:active{

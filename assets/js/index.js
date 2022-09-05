@@ -34,7 +34,7 @@ function changeLanguage(language) {
 function appendData(data) {
   console.log(data);
   document.title = data.title;
-  document.getElementById('logo').innerText = data.logo;
+  document.getElementById('logo').innerHTML = data.logo;
   document.getElementById('description').innerText = data.description;
 }
 
