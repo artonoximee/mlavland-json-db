@@ -36,6 +36,7 @@ function appendData(data, language) {
   document.title = data.title;
   document.getElementById('logo').innerHTML = data.logo;
   switchTitles(language);
+  appendDescription(data.description);
   appendProjects(data.projects);
   appendExhibitions(data.exhibitions);
 }
@@ -57,6 +58,18 @@ function switchTitles(language) {
   }
 }
 
+// Append description
+
+function appendDescription(description) {
+  const descriptionContainer = document.getElementById('description');
+  descriptionContainer.innerHTML = '';
+  let descriptionContent = document.createElement('p');
+  descriptionContent.innerHTML = description;
+  descriptionContainer.appendChild(descriptionContent);
+}
+
+// Append projects data
+
 function appendProjects(projects) {
   const projectsContainer = document.getElementById('projects');
   projectsContainer.innerHTML = '';
@@ -66,6 +79,8 @@ function appendProjects(projects) {
     projectsContainer.appendChild(project);
   }
 }
+
+// Append exhibitions data
 
 function appendExhibitions(exhibitions) {
   const exhibitionsContainer = document.getElementById('exhibitions');
