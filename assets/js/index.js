@@ -37,6 +37,7 @@ function appendData(data, language) {
   document.getElementById('logo').innerHTML = data.logo;
   switchTitles(language);
   appendProjects(data.projects);
+  appendExhibitions(data.exhibitions);
 }
 
 // Switch language from titles
@@ -64,7 +65,16 @@ function appendProjects(projects) {
     project.innerHTML = `<b>${projects[i].title}</b> <br> ${projects[i].date}, ${projects[i].type}`;
     projectsContainer.appendChild(project);
   }
-  console.log(projects);
+}
+
+function appendExhibitions(exhibitions) {
+  const exhibitionsContainer = document.getElementById('exhibitions');
+  exhibitionsContainer.innerHTML = '';
+  for (let i = 0; i < exhibitions.length; i++) {
+    let exhibition = document.createElement('p');
+    exhibition.innerHTML = `${exhibitions[i].venue}, ${exhibitions[i].city} <br> ${exhibitions[i].project}, ${exhibitions[i].type} (${exhibitions[i].date})`;
+    exhibitionsContainer.appendChild(exhibition);
+  }
 }
 
 // Default language on first load

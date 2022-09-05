@@ -21,5 +21,29 @@
       "type":"illustration",
       "hovertext":""
     }
+  ],
+
+  "exhibitions":[
+    {
+      "venue":"Chapelle Saint Louis",
+      "city":"Poitiers",
+      "project":"La Mesure et le Tas",
+      "type":"installation",
+      "date":"2021"
+    },
+    {
+      "venue":"Pavillon de l'Arsenal",
+      "city":"Paris",
+      "project":"Image du monde flottant",
+      "type":"illustration",
+      "date":"2021"
+    },
+    {
+      "venue":"Pavillon de l'Arsenal",
+      "city":"Paris",
+      "project":"La Mesure et le Tas",
+      "type":"installation",
+      "date":"2019"
+    }
   ]
 }

@@ -1,10 +1,49 @@
 {
-  "title": "MLAV.LAND | Micro Laboratory for the Architecture and the City",
+  "title": "MLAV.LAND | Micro Laboratoire pour l'Architecture et la Ville",
   "logo" : "ɰ̇",
 
   "projects":[
-    {"title":"Déprojet", "date":"2022"},
-    {"title":"PreHistories", "date":"2020"},
-    {"title":"Picture of the floating world", "date":"2021"}
+    {
+      "title":"Déprojet",
+      "date":"2022-?",
+      "type":"ongoing research",
+      "hovertext":"processus de recherche"
+    },
+    {
+      "title":"PreHistories, Access to open objects",
+      "date":"2020-?",
+      "type":"ongoing research",
+      "hovertext":""
+    },
+    {
+      "title":"Picture of the floating world",
+      "date":"2021",
+      "type":"drawing",
+      "hovertext":""
+    }
+  ],
+
+  "exhibitions":[
+    {
+      "venue":"Chapelle Saint Louis",
+      "city":"Poitiers",
+      "project":"Measuring and piling",
+      "type":"installation",
+      "date":"2021"
+    },
+    {
+      "venue":"Pavillon de l'Arsenal",
+      "city":"Paris",
+      "project":"Picture of the floating world",
+      "type":"illustration",
+      "date":"2021"
+    },
+    {
+      "venue":"Pavillon de l'Arsenal",
+      "city":"Paris",
+      "project":"Measuring and Piling",
+      "type":"installation",
+      "date":"2019"
+    }
   ]
 }
