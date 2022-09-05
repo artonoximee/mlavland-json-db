@@ -6,11 +6,11 @@ languageButton.onclick = function() {
   if (languageButton.value == 'fr') {
     changeLanguage('en');
     languageButton.setAttribute('value', 'en');
-    languageButton.innerText = 'version française';
+    languageButton.innerText = 'français';
   } else if (languageButton.value == 'en') {
     changeLanguage('fr');
     languageButton.setAttribute('value', 'fr');
-    languageButton.innerText = 'english version';
+    languageButton.innerText = 'english';
   }
 };
 
@@ -82,7 +82,7 @@ function appendExhibitions(exhibitions) {
 function onLoad() {
   changeLanguage('fr');
   languageButton.setAttribute('value', 'fr');
-  languageButton.innerText = 'english version';
+  languageButton.innerText = 'english';
 }
 
 onLoad();

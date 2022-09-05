@@ -28,11 +28,13 @@ hr {
 button, button:focus{
   outline: none;
   background: transparent;
-  border: 1px solid transparent;
+  border: 1px solid white;
   color: #fff;
   font-size: .9em !important;
   float: right;
   font-family: "Helvetica Neue", sans-serif !important;
+  width: 5em;
+  padding: .3em;
 }
 
 button:active{
