@@ -4,7 +4,7 @@ languageButton.onclick = function() {
   if (languageButton.value == 'fr') {
     changeLanguage('en');
     languageButton.setAttribute("value", "en");
-    languageButton.innerText = 'french version';
+    languageButton.innerText = 'version française';
   } else if (languageButton.value == 'en') {
     changeLanguage('fr');
     languageButton.setAttribute("value", "fr");
@@ -27,7 +27,8 @@ function changeLanguage(language) {
 
 function appendData(data) {
   console.log(data);
-  document.getElementById('title').innerText = data.title;
+  document.title = data.title;
+  document.getElementById('logo').innerText = data.logo;
   document.getElementById('description').innerText = data.description;
 }
 
