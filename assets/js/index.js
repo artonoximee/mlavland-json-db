@@ -1,9 +1,19 @@
-document.getElementById('btn').onclick = function() {
-  let currentLanguage = document.getElementById('btn').value;
-  console.log(currentLanguage);
+let languageButton = document.getElementById('btn');
+
+languageButton.onclick = function() {
+  if (languageButton.value == 'fr') {
+    changeLanguage('en');
+    languageButton.setAttribute("value", "en");
+    languageButton.innerText = 'french version';
+  } else if (languageButton.value == 'en') {
+    changeLanguage('fr');
+    languageButton.setAttribute("value", "fr");
+    languageButton.innerText = 'english version';
+  }
 };
 
-fetch('../../db/fr.json')
+function changeLanguage(language) {
+  fetch('../../db/' + language + '.json')
     .then(function (response) {
         return response.json();
     })
@@ -13,7 +23,7 @@ fetch('../../db/fr.json')
     .catch(function (err) {
         console.log('error: ' + err);
     });
-
+}
 
 function appendData(data) {
   console.log(data);
