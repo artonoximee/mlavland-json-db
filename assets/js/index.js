@@ -79,7 +79,7 @@ function appendProjects(projects) {
   projectsContainer.innerHTML = '';
   for (let i = 0; i < projects.length; i++) {
     let project = document.createElement('p');
-    project.innerHTML = `<b>${projects[i].title}</b> <br> ${projects[i].date}, ${projects[i].type}`;
+    project.innerHTML = `<a href="${projects[i].url}" target="_blank">${projects[i].title}</a><br>${projects[i].date}, ${projects[i].type}`;
     projectsContainer.appendChild(project);
   }
 }

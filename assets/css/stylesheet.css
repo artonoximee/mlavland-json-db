@@ -25,6 +25,18 @@ hr {
   padding: 0; 
 }
 
+a {
+	color: #fff;
+	text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+	text-decoration: none;
+	background-color: #ffff00;
+  color: #000;
+}
+
 button, button:focus{
   outline: none;
   background: transparent;
@@ -41,6 +53,12 @@ button:active{
   outline: none;
   background: transparent;
   border: 1px solid grey;
+}
+
+button:hover {
+  background: #ffff00;
+  color: #000;
+  cursor: pointer;
 }
 
 .content {
