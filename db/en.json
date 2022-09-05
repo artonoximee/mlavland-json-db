@@ -24,6 +24,16 @@
     }
   ],
 
+  "teachings":[
+    {
+      "title":"Diploma theses supervision",
+      "department":"R10 - PASS Department",
+      "project":"Architecture and climate emergency",
+      "school":"ENSA Paris Malaquais",
+      "date":"spring 2022"
+    }
+  ],
+
   "exhibitions":[
     {
       "venue":"Chapelle Saint Louis",
@@ -46,5 +56,70 @@
       "type":"installation",
       "date":"2019"
     }
+  ],
+
+  "publications":[
+    {
+      "title":"Paris Ville Free",
+      "description":"Soline Nivet, drawings by MLAV.LAND, in 'Revue du Crieur' #20, 2022 [fr]",
+      "hovertext":"",
+      "url":"https://www.editionsladecouverte.fr/Revueducrieur"
+    },
+    {
+      "title":"Host to host",
+      "description":"MLAV.LAND, in 'Revue Polygone #0 - Pirate', 2021 [fr]",
+      "hovertext":"",
+      "url":"https://revuepolygone.bigcartel.com/product/polygone-n-0-pirate"
+    },
+    {
+      "title":"Incertitude et chaos",
+      "description":"MLAV.LAND, in 'Et demain, on fait quoi ?', Pavillon de l'Arsenal, 2020 [fr]",
+      "hovertext":"",
+      "url":"https://www.pavillon-arsenal.com/fr/et-demain-on-fait-quoi/11598-incertitude-et-chaos.html"
+    },
+    {
+      "title":"Objects trump architecture",
+      "description":"MLAV.LAND, in forwward, 2019 [en]",
+      "hovertext":"",
+      "url":"https://fwwd.design/v1-i1/objects-trump-architecture/"
+    },
+    {
+      "title":"Ce que ça peut être, Parties 1 & 2",
+      "description":"MLAV.LAND (Maud Lévy & Antoine Vercoutère), 2018, 196 pages [fr]",
+      "hovertext":"",
+      "url":"https://mlav.land/pdf/MLAV-CEQUECAPEUTETRE-2018.pdf"
+    },
+    {
+      "title":"Une cognition réticulaire et ambiante",
+      "description":"L'évolution de l'architecture vers l'autoadaptabilité dynamique<br>Maud LÉVY, 2018, 95 pages [fr]",
+      "hovertext":"",
+      "url":"https://mlav.land/pdf/R9-LEVY-Une_Cognition_Reticulaire-Et_Ambiante.pdf"
+    },
+    {
+      "title":"Brouhahas Projetés",
+      "description":"Les territoires de l'axonométrie dans l'imaginaire architectural contemporain<br>Antoine VERCOUTÈRE, 2017, 87 pages [fr] ",
+      "hovertext":"",
+      "url":"https://mlav.land/pdf/R9-VERCOUTERE-Brouhahas-Projetes.pdf"
+    }
+  ],
+
+  "distinctions":[
+    {
+      "title":"Special distinction at the Future of Past competition",
+      "date":"2019"
+    },
+    {
+      "title":"Laureate of the Pli Public Workshop & Laureate of Pli Prize",
+      "date":"2019"
+    },
+    {
+      "title":"Special distinction at the Mini Maousse competition (Cité de l'Architecture)",
+      "date":"2019"
+    },
+    {
+      "title":"Laureate of the Prize for the best diplomas from the Maison de l'Architecture in Île&#8209;de&#8209;France",
+      "date":"2018"
+    }
+
   ]
 }
