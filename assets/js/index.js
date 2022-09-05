@@ -42,6 +42,7 @@ function appendData(data, language) {
   appendProjects(data.projects);
   appendTeachings(data.teachings);
   appendExhibitions(data.exhibitions);
+  appendPublications(data.publications);
 }
 
 // Switch language from titles
@@ -53,6 +54,7 @@ function switchTitles(language) {
   let projectsTitle = document.getElementById('projectsTitle');
   let teachingsTitle = document.getElementById('teachingsTitle');
   let exhibitionsTitle = document.getElementById('exhibitionsTitle');
+  let publicationsTitle = document.getElementById('publicationsTitle');
   if (language == 'fr') {
     descriptionTitle.innerHTML = '&nbsp;';
     alliesTitle.innerHTML = 'Allié·es';
@@ -60,6 +62,7 @@ function switchTitles(language) {
     projectsTitle.innerHTML = 'Projets';
     teachingsTitle.innerHTML = 'Enseignement';
     exhibitionsTitle.innerHTML = 'Expositions';
+    publicationsTitle.innerHTML = 'Publications';
   } else {
     descriptionTitle.innerHTML = '&nbsp;';
     alliesTitle.innerHTML = 'Allies';
@@ -67,6 +70,7 @@ function switchTitles(language) {
     projectsTitle.innerHTML = 'Projects';
     teachingsTitle.innerHTML = 'Teaching';
     exhibitionsTitle.innerHTML = 'Exhibitions';
+    publicationsTitle.innerHTML = 'Publications';
   }
 }
 
@@ -113,6 +117,18 @@ function appendExhibitions(exhibitions) {
     let exhibition = document.createElement('p');
     exhibition.innerHTML = `${exhibitions[i].venue}, ${exhibitions[i].city} <br> ${exhibitions[i].project}, ${exhibitions[i].type} (${exhibitions[i].date})`;
     exhibitionsContainer.appendChild(exhibition);
+  }
+}
+
+// Append publications data
+
+function appendPublications(publications) {
+  const publicationsContainer = document.getElementById('publications');
+  publicationsContainer.innerHTML = '';
+  for (let i = 0; i < publications.length; i++) {
+    let publication = document.createElement('p');
+    publication.innerHTML = `<a href='${publications[i].url}' target='_blank'>${publications[i].title}</a><br>${publications[i].description}`;
+    publicationsContainer.appendChild(publication);
   }
 }
 
