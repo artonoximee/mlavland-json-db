@@ -2,7 +2,7 @@
 
 let languageButton = document.getElementById('btn');
 
-languageButton.onclick = function() {
+languageButton.onclick = function () {
   if (languageButton.value == 'fr') {
     changeLanguage('en');
     languageButton.setAttribute('value', 'en');
@@ -19,13 +19,13 @@ languageButton.onclick = function() {
 function changeLanguage(language) {
   fetch('db/' + language + '.json')
     .then(function (response) {
-        return response.json();
+      return response.json();
     })
     .then(function (data) {
-        appendData(data, language);
+      appendData(data, language);
     })
     .catch(function (err) {
-        console.log('error: ' + err);
+      console.log('error: ' + err);
     });
 }
 
@@ -46,16 +46,22 @@ function appendData(data, language) {
 
 function switchTitles(language) {
   let descriptionTitle = document.getElementById('descriptionTitle');
+  let alliesTitle = document.getElementById('alliesTitle');
+  let contactTitle = document.getElementById('contactTitle');
   let projectsTitle = document.getElementById('projectsTitle');
   let teachingsTitle = document.getElementById('teachingsTitle');
   let exhibitionsTitle = document.getElementById('exhibitionsTitle');
-  if (language =='fr') {
+  if (language == 'fr') {
     descriptionTitle.innerHTML = '&nbsp;';
+    alliesTitle.innerHTML = 'Allié·es';
+    contactTitle.innerHTML = 'Contact';
     projectsTitle.innerHTML = 'Projets';
     teachingsTitle.innerHTML = 'Enseignement';
     exhibitionsTitle.innerHTML = 'Expositions';
   } else {
     descriptionTitle.innerHTML = '&nbsp;';
+    alliesTitle.innerHTML = 'Allies';
+    contactTitle.innerHTML = 'Contact';
     projectsTitle.innerHTML = 'Projects';
     teachingsTitle.innerHTML = 'Teaching';
     exhibitionsTitle.innerHTML = 'Exhibitions';
