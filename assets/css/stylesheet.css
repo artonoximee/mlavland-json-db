@@ -12,6 +12,19 @@ body {
 	margin-bottom: 30px;
 }
 
+h4 {
+	margin-bottom: -5px;
+}
+
+hr { 
+	display: block;
+	height: 1px;
+  border: 0;
+  border-top: 1px solid white;
+  margin: 1em 0;
+  padding: 0; 
+}
+
 button, button:focus{
   outline: none;
   background: transparent;
