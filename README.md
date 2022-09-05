@@ -1,4 +1,4 @@
-# MLAV.LAND Website - .json-based version
+mlav.land website | json database version
 
 ## Introduction
 
