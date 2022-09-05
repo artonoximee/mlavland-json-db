@@ -17,7 +17,7 @@ languageButton.onclick = function() {
 // Fetch json data from the chosen language
 
 function changeLanguage(language) {
-  fetch('../../db/' + language + '.json')
+  fetch('db/' + language + '.json')
     .then(function (response) {
         return response.json();
     })
