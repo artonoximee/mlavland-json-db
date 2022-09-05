@@ -1,18 +1,4 @@
-/*
-async function fetchDatabase() {
-  fetch('../../db/general.json')
-    .then(function(response) {
-      if (response.ok) {
-        return response.json();
-      }
-    })
-    .then(function(database) {
-      return database
-    });
-}
-*/
-
-fetch('../../db/general.json')
+fetch('../../db/fr.json')
     .then(function (response) {
         return response.json();
     })
@@ -22,6 +8,8 @@ fetch('../../db/general.json')
     .catch(function (err) {
         console.log('error: ' + err);
     });
+
+
 function appendData(data) {
   console.log(data);
   document.getElementById('title').innerText = data.title;
