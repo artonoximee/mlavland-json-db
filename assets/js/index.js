@@ -30,3 +30,11 @@ function appendData(data) {
   document.getElementById('title').innerText = data.title;
   document.getElementById('description').innerText = data.description;
 }
+
+function onLoad() {
+  changeLanguage('fr');
+  languageButton.setAttribute("value", "fr");
+  languageButton.innerText = 'english version';
+}
+
+onLoad();
