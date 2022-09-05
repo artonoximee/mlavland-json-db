@@ -1,5 +1,10 @@
 {
   "title": "MLAV.LAND | Micro Laboratory for the Architecture and the City",
   "logo" : "ɰ̇",
-  "description": "English description TEST 1"
+
+  "projects":[
+    {"title":"Déprojet", "date":"2022"},
+    {"title":"PreHistories", "date":"2020"},
+    {"title":"Picture of the floating world", "date":"2021"}
+  ]
 }
