@@ -131,7 +131,7 @@ function appendPublications(publications) {
   publicationsContainer.innerHTML = '';
   for (let i = 0; i < publications.length; i++) {
     let publication = document.createElement('p');
-    publication.innerHTML = `<a href='${publications[i].url}' target='_blank'>${publications[i].title}</a><br>${publications[i].description}`;
+    publication.innerHTML = `<a href='${publications[i].url}' onmouseover="changeText('${publications[i].hovertext}')" onmouseout="defaultText()" target='_blank'>${publications[i].title}</a><br>${publications[i].description}`;
     publicationsContainer.appendChild(publication);
   }
 }
