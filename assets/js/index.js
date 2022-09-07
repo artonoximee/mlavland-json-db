@@ -95,7 +95,7 @@ function appendProjects(projects) {
   projectsContainer.innerHTML = '';
   for (let i = 0; i < projects.length; i++) {
     let project = document.createElement('p');
-    project.innerHTML = `<a href="${projects[i].url}" target="_blank">${projects[i].title}</a><br>${projects[i].date}, ${projects[i].type}`;
+    project.innerHTML = `<a href="${projects[i].url}" onmouseover="changeText('${projects[i].hovertext}')" onmouseout="defaultText()" target="_blank">${projects[i].title}</a><br>${projects[i].date}, ${projects[i].type}`;
     projectsContainer.appendChild(project);
   }
 }
@@ -146,6 +146,20 @@ function appendDistinctions(distinctions) {
     distinction.innerHTML = `${distinctions[i].title}<br>${distinctions[i].date}`;
     distinctionsContainer.appendChild(distinction);
   }
+}
+
+// Display 'subtitle' text when hovering links
+
+function changeText(text) {
+  let display = document.getElementById('text-display');
+  display.innerHTML = "";
+  display.innerHTML = text;
+}
+
+function defaultText() {
+  let display = document.getElementById('text-display');
+  display.innerHTML = "";
+  display.innerHTML = "<span class='orig'></span>";
 }
 
 // Default language on first load

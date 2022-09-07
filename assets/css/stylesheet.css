@@ -64,3 +64,24 @@ button:hover {
 .content {
   padding-bottom: 1em;
 }
+
+#text-display {	
+	z-index: 1000;
+	position: fixed;
+	bottom: 50px;
+	width: 90vw;
+	left: 50%;
+	-webkit-transform: translateX(0%) ;
+	-moz-transform: translateX(-50%) ;
+	transform: translateX(-50%) ;			
+	font-size: 40px;
+	line-height: 42px;
+	font-family: "Helvetica Neue", sans-serif;
+	text-transform: lowercase;
+	text-align: center;
+  color: rgb(255,255,0);
+  text-shadow: -3px 3px 0 #000,
+                3px 3px 0 #000,
+                3px -3px 0 #000,
+               -3px -3px 0 #000;
+}
