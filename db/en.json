@@ -10,105 +10,105 @@
       "title":"Déprojet",
       "date":"2022-?",
       "type":"ongoing research",
-      "hovertext":"processus de recherche",
+      "hovertext":"research process",
       "url":"https://www.instagram.com/deprojeter/"
     },
     {
       "title":"PréHistoires, Accéder aux objets ouverts",
       "date":"2020-?",
       "type":"ongoing research",
-      "hovertext":"",
+      "hovertext":"research process",
       "url":"#"
     },
     {
       "title":"Picture of the floating world",
       "date":"2021",
       "type":"drawing",
-      "hovertext":"",
+      "hovertext":"drawing commisionned by the pavillon de l’arsenal, exhibited may 2021 - feburary 2022",
       "url":"#"
     },
     {
       "title":"Measuring and piling",
       "date":"2019",
       "type":"installation",
-      "hovertext":"",
+      "hovertext":"video installation for the pli public workshop, exhibited at the pavillon de l’arsenal in fall 2019",
       "url":"https://vimeo.com/378367469"
     },
     {
       "title":"Random Architecture Program",
       "date":"2019",
       "type":"web app",
-      "hovertext":"",
+      "hovertext":"generator of online random architecture programs",
       "url":"http://generator.mlav.land/"
     },
     {
       "title":"Future of Past",
       "date":"2019",
       "type":"competition",
-      "hovertext":"",
+      "hovertext":"ideas competition on the future of Parisian heritage",
       "url":"https://concours.bam.archi/cdne"
     },
     {
       "title":"Iliad/Free digital ecosystem in Paris, places and architectures",
       "date":"2019",
       "type":"drawings serie for Soline Nivet",
-      "hovertext":"",
+      "hovertext":"a series of drawings commissioned by Soline Nivet as part of a research project",
       "url":"http://www.soline-nivet.fr/fr/host-mesh-educate-incubate-employ-iliadfree-digital-ecosystem-in-paris-places-and-architectures/"
     },
     {
       "title":"Matière Directory",
       "date":"2019",
       "type":"web app",
-      "hovertext":"",
+      "hovertext":"development of an online tool for referencing reuse actors",
       "url":"https://matiere-directory.herokuapp.com/"
     },
     {
       "title":"Marketplace Matière",
       "date":"2019",
       "type":"web app",
-      "hovertext":"",
+      "hovertext":"development of a prototype online marketplace for the sale of reusable materials",
       "url":"https://matiere-stage.herokuapp.com/"
     },
     {
       "title":"The Mobile Micro-Laboratory",
       "date":"2019",
       "type":"micro-architecture project",
-      "hovertext":"",
-      "url":"#"
+      "hovertext":"microarchitecture project carried out as part of the Mini Maousse competition,<br>to support dematerialized administrative procedures",
+      "url":"https://mlav.land/pdf/MLAVLAND-Micro_Laboratoire_Ambulant-2019.pdf"
     },
     {
       "title":"Archive of Terrestrial Extracts",
       "date":"2018-?",
       "type":"ongoing archiving project ",
-      "hovertext":"",
+      "hovertext":"photogrammetric archiving project, in progress",
       "url":"http://ate.mlav.land/"
     },
     {
       "title":"Pppanorammmas",
       "date":"2018",
       "type":"photo series",
-      "hovertext":"",
+      "hovertext":"series of photographs",
       "url":"#"
     },
     {
       "title":"What It Can Be",
       "date":"2018",
       "type":"installation",
-      "hovertext":"",
+      "hovertext":"diploma project, installation",
       "url":"https://vimeo.com/297115302"
     },
     {
       "title":"Auto-Post-Trans-Multi-Méta-Néo-Anti-Sub-Ob",
       "date":"2018",
       "type":"short film (12 minutes, color)",
-      "hovertext":"",
+      "hovertext":"diploma research, short film",
       "url":"https://vimeo.com/288704217"
     },
     {
       "title":"The dive",
       "date":"2017",
       "type":"short film (15 minutes, b&w)",
-      "hovertext":"",
+      "hovertext":"semi-fiction short film on education<br>and the architectural profession from 1968 to the present",
       "url":"https://vimeo.com/200715069"
     }
   ],
@@ -186,43 +186,43 @@
     {
       "title":"Paris Ville Free",
       "description":"Soline Nivet, drawings by MLAV.LAND, in 'Revue du Crieur' #20, 2022 [fr]",
-      "hovertext":"",
+      "hovertext":"revue du crieur website",
       "url":"https://www.editionsladecouverte.fr/Revueducrieur"
     },
     {
       "title":"Host to host",
       "description":"MLAV.LAND, in 'Revue Polygone #0 - Pirate', 2021 [fr]",
-      "hovertext":"",
+      "hovertext":"buy the book",
       "url":"https://revuepolygone.bigcartel.com/product/polygone-n-0-pirate"
     },
     {
       "title":"Incertitude et chaos",
       "description":"MLAV.LAND, in 'Et demain, on fait quoi ?', Pavillon de l'Arsenal, 2020 [fr]",
-      "hovertext":"",
+      "hovertext":"read the article",
       "url":"https://www.pavillon-arsenal.com/fr/et-demain-on-fait-quoi/11598-incertitude-et-chaos.html"
     },
     {
       "title":"Objects trump architecture",
       "description":"MLAV.LAND, in forwward, 2019 [en]",
-      "hovertext":"",
+      "hovertext":"read the article",
       "url":"https://fwwd.design/v1-i1/objects-trump-architecture/"
     },
     {
       "title":"Ce que ça peut être, Parties 1 & 2",
       "description":"MLAV.LAND (Maud Lévy & Antoine Vercoutère), 2018, 196 pages [fr]",
-      "hovertext":"",
+      "hovertext":"view pdf",
       "url":"https://mlav.land/pdf/MLAV-CEQUECAPEUTETRE-2018.pdf"
     },
     {
       "title":"Une cognition réticulaire et ambiante",
       "description":"L'évolution de l'architecture vers l'autoadaptabilité dynamique<br>Maud LÉVY, 2018, 95 pages [fr]",
-      "hovertext":"",
+      "hovertext":"view pdf",
       "url":"https://mlav.land/pdf/R9-LEVY-Une_Cognition_Reticulaire-Et_Ambiante.pdf"
     },
     {
       "title":"Brouhahas Projetés",
       "description":"Les territoires de l'axonométrie dans l'imaginaire architectural contemporain<br>Antoine VERCOUTÈRE, 2017, 87 pages [fr] ",
-      "hovertext":"",
+      "hovertext":"view pdf",
       "url":"https://mlav.land/pdf/R9-VERCOUTERE-Brouhahas-Projetes.pdf"
     }
   ],
