@@ -79,7 +79,7 @@ button:hover {
 	font-family: "Helvetica Neue", sans-serif;
 	text-transform: lowercase;
 	text-align: center;
-  color: rgb(255,255,0);
+  color: #ffff00;
   text-shadow: -3px 3px 0 #000,
                 3px 3px 0 #000,
                 3px -3px 0 #000,
