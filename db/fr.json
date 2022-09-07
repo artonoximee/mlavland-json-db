@@ -24,91 +24,91 @@
       "title":"Image du monde flottant",
       "date":"2021",
       "type":"illustration",
-      "hovertext":"",
+      "hovertext":"illustration réalisée pour le pavillon de l’arsenal, exposée en mai 2021 - février 2022",
       "url":"#"
     },
     {
       "title":"La Mesure et le Tas",
       "date":"2019",
       "type":"installation",
-      "hovertext":"",
+      "hovertext":"installation vidéo pour le pli public workshop,<br>exposé au pavillon de l’arsenal en automne 2019",
       "url":"https://vimeo.com/378367469"
     },
     {
       "title":"Random Architecture Program",
       "date":"2019",
       "type":"application web",
-      "hovertext":"",
+      "hovertext":"générateur de programmes d’architectures aléatoires en ligne",
       "url":"http://generator.mlav.land/"
     },
     {
       "title":"Future of Past",
       "date":"2019",
       "type":"concours d'idées",
-      "hovertext":"",
+      "hovertext":"concours d’idées sur l’avenir du patrimoine parisien",
       "url":"https://concours.bam.archi/cdne"
     },
     {
       "title":"Iliad/Free digital ecosystem in Paris, places and architectures",
       "date":"2019",
       "type":"série de dessins pour Soline Nivet",
-      "hovertext":"",
+      "hovertext":"série de dessins commandée par Soline Nivet dans le cadre d’une recherche",
       "url":"http://www.soline-nivet.fr/fr/host-mesh-educate-incubate-employ-iliadfree-digital-ecosystem-in-paris-places-and-architectures/"
     },
     {
       "title":"Annuaire Matière",
       "date":"2019",
       "type":"application web",
-      "hovertext":"",
+      "hovertext":"développement d’un outil de référencement des acteurs du réemploi",
       "url":"https://matiere-directory.herokuapp.com/"
     },
     {
       "title":"Marketplace Matière",
       "date":"2019",
       "type":"application web prototype",
-      "hovertext":"",
+      "hovertext":"développement d’une marketplace prototype pour la vente de matériaux de réemploi",
       "url":"https://matiere-stage.herokuapp.com/"
     },
     {
       "title":"Le Micro-Laboratoire Ambulant",
       "date":"2019",
       "type":"projet de micro-architecture",
-      "hovertext":"",
-      "url":"#"
+      "hovertext":"projet de micro architecture réalisé dans le cadre du concours Mini Maousse,<br>pour un accompagnement des démarches administratives dématéralisées",
+      "url":"https://mlav.land/pdf/MLAVLAND-Micro_Laboratoire_Ambulant-2019.pdf"
     },
     {
       "title":"Archives d'Extraits Terrestres",
       "date":"2018-?",
       "type":"projet d'archivage en cours",
-      "hovertext":"",
+      "hovertext":"projet d’archivage photogrammétrique, en cours",
       "url":"http://aet.mlav.land/"
     },
     {
       "title":"Pppanorammmas",
       "date":"2018",
       "type":"série de photographies",
-      "hovertext":"",
+      "hovertext":"série de photographies",
       "url":"#"
     },
     {
       "title":"Ce Que Ça Peut Être",
       "date":"2018",
       "type":"installation",
-      "hovertext":"",
+      "hovertext":"projet de diplôme, installation",
       "url":"https://vimeo.com/297115302"
     },
     {
       "title":"Auto-Post-Trans-Multi-Méta-Néo-Anti-Sub-Ob",
       "date":"2018",
       "type":"court-métrage (12 minutes, color)",
-      "hovertext":"",
+      "hovertext":"recherches de diplôme, court-métrage",
       "url":"https://vimeo.com/288704217"
     },
     {
       "title":"Le Plongeon",
       "date":"2017",
       "type":"court-métrage (15 minutes, b&w)",
-      "hovertext":"",
+      "hovertext":"court-métrage semi-fictionnel sur l’enseignement<br>et la profession d’architecte de 1968 à nos jours",
       "url":"https://vimeo.com/200715069"
     }
   ],
@@ -186,43 +186,43 @@
     {
       "title":"Paris Ville Free",
       "description":"Soline Nivet, dessins par MLAV.LAND, dans 'Revue du Crieur' #20, 2022 [fr]",
-      "hovertext":"",
+      "hovertext":"website revue du crieur",
       "url":"https://www.editionsladecouverte.fr/Revueducrieur"
     },
     {
       "title":"Host to host",
       "description":"MLAV.LAND, dans 'Revue Polygone #0 - Pirate', 2021 [fr]",
-      "hovertext":"",
+      "hovertext":"acheter la revue",
       "url":"https://revuepolygone.bigcartel.com/product/polygone-n-0-pirate"
     },
     {
       "title":"Incertitude et chaos",
       "description":"MLAV.LAND, dans 'Et demain, on fait quoi ?', Pavillon de l'Arsenal, 2020 [fr]",
-      "hovertext":"",
+      "hovertext":"lire article",
       "url":"https://www.pavillon-arsenal.com/fr/et-demain-on-fait-quoi/11598-incertitude-et-chaos.html"
     },
     {
       "title":"Objects trump architecture",
       "description":"MLAV.LAND, dans forwward, 2019 [en]",
-      "hovertext":"",
+      "hovertext":"lire article",
       "url":"https://fwwd.design/v1-i1/objects-trump-architecture/"
     },
     {
       "title":"Ce que ça peut être, Parties 1 & 2",
       "description":"MLAV.LAND (Maud Lévy & Antoine Vercoutère), 2018, 196 pages [fr]",
-      "hovertext":"",
+      "hovertext":"consulter le pdf",
       "url":"https://mlav.land/pdf/MLAV-CEQUECAPEUTETRE-2018.pdf"
     },
     {
       "title":"Une cognition réticulaire et ambiante",
       "description":"L'évolution de l'architecture vers l'autoadaptabilité dynamique<br>Maud LÉVY, 2018, 95 pages [fr]",
-      "hovertext":"",
+      "hovertext":"consulter le pdf",
       "url":"https://mlav.land/pdf/R9-LEVY-Une_Cognition_Reticulaire-Et_Ambiante.pdf"
     },
     {
       "title":"Brouhahas Projetés",
       "description":"Les territoires de l'axonométrie dans l'imaginaire architectural contemporain<br>Antoine VERCOUTÈRE, 2017, 87 pages [fr] ",
-      "hovertext":"",
+      "hovertext":"consulter le pdf",
       "url":"https://mlav.land/pdf/R9-VERCOUTERE-Brouhahas-Projetes.pdf"
     }
   ],
