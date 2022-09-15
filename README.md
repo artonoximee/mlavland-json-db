@@ -10,4 +10,4 @@ Since all the content is added by the javascript script once it is loaded, this 
 
 ## Live version
 
-Live version of this repository is available here : [mlav.land/json](https://mlav.land/json/)
+Live version of this repository is [available here](https://mlav.land/json/).
